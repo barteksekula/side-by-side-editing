@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SideBySideEditing</id>
+    <version>$PackageVersion$</version>
+    <title>SideBySideEditing</title>
+    <authors>EPiServer Labs</authors>
+    <owners>EPiServer Labs</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A package that lets editors edit content side by side with auto updating preview</description>
+    <releaseNotes/>
+    <copyright>Copyright 2021</copyright>
+    <tags>content editing sidebyside</tags>
+    <licenseUrl>https://raw.githubusercontent.com/barteksekula/SideBySideEditing/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/barteksekula/SideBySideEditing</projectUrl>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="EPiServer.CMS.UI.Core" version="[$CmsUIVersion$, $CmsUINextMajorVersion$)" />
+        <dependency id="System.Linq.Async" version="6.0.1" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/any/modules/_protected/SideBySideEditing\SideBySideEditing.zip" buildAction="None" copyToOutput="true"  />
+    </contentFiles>
+  </metadata>
+  <files>
+	  <file src="src\SideBySideEditing\bin\$configuration$\SideBySideEditing.dll" target="lib\net6.0\" />
+    <file src="out\SideBySideEditing\SideBySideEditing.zip" target="contentFiles\any\any\modules\_protected\SideBySideEditing\" />
+    <file src="build\CopyZipFiles.targets" target="build\net6.0\SideBySideEditing.targets" />
+    <file src="src\SideBySideEditing\readme.txt" target="" />
+  </files>
+</package>

@@ -1,0 +1,7 @@
+.git
+**/node_modules
+**/bin
+**/obj
+**/App_Data
+**/Static
+

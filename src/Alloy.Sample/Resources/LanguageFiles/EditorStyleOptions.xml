@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+
+  <language name="English" id="en">
+    <tinymce>
+      <editorstyles>
+        <h1>Heading 1</h1>
+        <header.dim>Dimmed header</header.dim>
+      </editorstyles>
+    </tinymce>
+  </language>
+
+  <language name="Svenska" id="sv">
+    <tinymce>
+      <editorstyles>
+        <h1>Rubrik 1</h1>
+        <header.dim>Nedtonad rubrik</header.dim>
+      </editorstyles>
+    </tinymce>
+  </language>
+
+</languages>

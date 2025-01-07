@@ -1,0 +1,16 @@
+{
+    "env": {
+        "browser": true,
+        "amd": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "@episerver"],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "root": true,
+    "rules": {
+        "no-console": "off"
+    }
+}

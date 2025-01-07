@@ -1,0 +1,23 @@
+<Project>
+    <PropertyGroup>
+        <CmsCoreVersion>12.22.2</CmsCoreVersion>
+        <CmsUIVersion>12.32.2</CmsUIVersion>
+        <TinyMceVersion>4.8.1</TinyMceVersion>
+        <EPiServerImageSharp>1.0.3</EPiServerImageSharp>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Update="EPiServer.CMS.TinyMce" Version="$(TinyMceVersion)"/>
+        <PackageReference Update="EPiServer.CMS.AspNetCore.HtmlHelpers" Version="$(CmsCoreVersion)"/>
+        <PackageReference Update="EPiServer.CMS.UI" Version="$(CmsUIVersion)"/>
+        <PackageReference Update="EPiServer.CMS.UI.Core" Version="$(CmsUIVersion)"/>
+        <PackageReference Update="EPiServer.CMS.UI.Sources" Version="$(CmsUIVersion)"/>
+        <PackageReference Update="EPiServer.CMS.AspNetCore.Templating" Version="$(CmsCoreVersion)" />
+        <PackageReference Update="EPiServer.CMS.UI.AspNetIdentity" Version="$(CmsUIVersion)"/>
+        <PackageReference Update="EPiServer.CMS.UI.VisitorGroups" Version="$(CmsUIVersion)"/>
+        <PackageReference Update="EPiServer.Hosting" Version="$(CmsCoreVersion)"/>
+        <PackageReference Update="EPiServer.ImageLibrary.ImageSharp" Version="$(EPiServerImageSharp)" />
+
+        <PackageReference Update="System.Linq.Async" Version="6.0.1" />
+    </ItemGroup>
+</Project>

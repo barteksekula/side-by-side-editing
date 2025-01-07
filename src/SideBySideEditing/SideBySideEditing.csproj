@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\build\common.props" />
+  <Import Project="..\..\build\nuspec.props" />
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <NoWarn>NU5125</NoWarn>
+    <NuspecFile>SideBySideEditing.nuspec</NuspecFile>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EmbededLanguages\**\*" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EPiServer.CMS.UI.Core" />
+    <PackageReference Include="System.Linq.Async" />
+  </ItemGroup>
+</Project>

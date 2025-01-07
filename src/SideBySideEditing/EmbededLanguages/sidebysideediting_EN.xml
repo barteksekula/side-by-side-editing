@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<languages>
+  <language name="English" id="en">
+    <sidebysideediting>
+      <description>Edit all properties while previewing</description>
+      <name>Side By Side</name>
+    </sidebysideediting>
+  </language>
+</languages>
