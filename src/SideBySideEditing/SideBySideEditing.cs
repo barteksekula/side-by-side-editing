@@ -7,7 +7,7 @@ namespace SideBySideEditing;
 [ServiceConfiguration(typeof(ViewConfiguration))]
 public class SideBySideEditing : ViewConfiguration<IContentData>
 {
-    public const string SideBySideEditView = "sidebysideedit";
+    private const string SideBySideEditView = "sidebysideedit";
 
     public SideBySideEditing()
     {
