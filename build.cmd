@@ -1,3 +1,6 @@
+@ECHO OFF
+SETLOCAL
+
 REM Set Release or Debug configuration.
 IF "%1"=="Release" (set CONFIGURATION=Release) ELSE (set CONFIGURATION=Debug)
 ECHO Building in %CONFIGURATION%

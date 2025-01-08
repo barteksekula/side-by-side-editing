@@ -9,7 +9,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A package that lets editors edit content side by side with auto updating preview</description>
     <releaseNotes/>
-    <copyright>Copyright 2021</copyright>
+    <copyright>Copyright 2025</copyright>
     <tags>content editing sidebyside</tags>
     <licenseUrl>https://raw.githubusercontent.com/barteksekula/SideBySideEditing/main/LICENSE</licenseUrl>
     <projectUrl>https://github.com/barteksekula/SideBySideEditing</projectUrl>
@@ -20,12 +20,12 @@
       </group>
     </dependencies>
     <contentFiles>
-      <files include="any/any/modules/_protected/SideBySideEditing\SideBySideEditing.zip" buildAction="None" copyToOutput="true"  />
+      <files include="any/any/modules/_protected/side-by-side-editing\side-by-side-editing.zip" buildAction="None" copyToOutput="true"  />
     </contentFiles>
   </metadata>
   <files>
 	  <file src="src\SideBySideEditing\bin\$configuration$\SideBySideEditing.dll" target="lib\net6.0\" />
-    <file src="out\SideBySideEditing\SideBySideEditing.zip" target="contentFiles\any\any\modules\_protected\SideBySideEditing\" />
+    <file src="out\side-by-side-editing\side-by-side-editing.zip" target="contentFiles\any\any\modules\_protected\side-by-side-editing\" />
     <file src="build\CopyZipFiles.targets" target="build\net6.0\SideBySideEditing.targets" />
     <file src="src\SideBySideEditing\readme.txt" target="" />
   </files>

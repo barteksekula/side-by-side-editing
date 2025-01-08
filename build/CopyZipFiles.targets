@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
     <ItemGroup>
-        <ModuleFiles Include="$(MSBuildThisFileDirectory)..\..\contentFiles\any\any\modules\_protected\**\*.zip"/>
+        <SourceScripts Include="$(MSBuildThisFileDirectory)..\..\contentFiles\any\any\modules\_protected\**\*.zip"/>
     </ItemGroup>
 
-    <Target Name="CopyZipFiles"
-            BeforeTargets="Build"
-            Inputs="@(ModuleFiles)"
-            Outputs="@(ModuleFiles -> '$(MSBuildProjectDirectory)\modules\_protected\%(RecursiveDir)%(Filename)%(extension)')">>
+    <Target Name="CopyZipFiles" BeforeTargets="Build">
         <Copy
-            SourceFiles="@(ModuleFiles)"
-            DestinationFiles="@(ModuleFiles -> '$(MSBuildProjectDirectory)\modules\_protected\%(RecursiveDir)%(Filename)%(extension)')" />
+            SourceFiles="@(SourceScripts)"
+            DestinationFolder="$(MSBuildProjectDirectory)\modules\_protected\%(RecursiveDir)"
+        />
     </Target>
 </Project>
