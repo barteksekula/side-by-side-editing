@@ -23,6 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A1272902
 		setup.cmd = setup.cmd
 		build\nuspec.props = build\nuspec.props
 		build\dependencies.props = build\dependencies.props
+		package.json = package.json
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideBySideEditing", "src\SideBySideEditing\SideBySideEditing.csproj", "{72EBA180-C0F0-4615-991F-FF6BB367ACEC}"

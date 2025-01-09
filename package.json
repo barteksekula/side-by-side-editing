@@ -1,0 +1,7 @@
+{
+  "name": "side-by-side-editing",
+  "author": "Bartosz Sekuła",
+  "dependencies": {
+    "uglify-js": "^3.19.3"
+  }
+}
