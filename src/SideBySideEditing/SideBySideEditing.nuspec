@@ -16,7 +16,6 @@
     <dependencies>
       <group targetFramework="net6.0">
         <dependency id="EPiServer.CMS.UI.Core" version="[$CmsUIVersion$, $CmsUINextMajorVersion$)" />
-        <dependency id="System.Linq.Async" version="6.0.1" />
       </group>
     </dependencies>
     <contentFiles>

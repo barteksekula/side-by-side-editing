@@ -12,6 +12,5 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="EPiServer.CMS.UI.Core" />
-    <PackageReference Include="System.Linq.Async" />
   </ItemGroup>
 </Project>

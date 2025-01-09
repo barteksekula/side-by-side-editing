@@ -17,7 +17,5 @@
         <PackageReference Update="EPiServer.CMS.UI.VisitorGroups" Version="$(CmsUIVersion)"/>
         <PackageReference Update="EPiServer.Hosting" Version="$(CmsCoreVersion)"/>
         <PackageReference Update="EPiServer.ImageLibrary.ImageSharp" Version="$(EPiServerImageSharp)" />
-
-        <PackageReference Update="System.Linq.Async" Version="6.0.1" />
     </ItemGroup>
 </Project>
