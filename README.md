@@ -2,6 +2,11 @@
 
 [![Build .net core](https://github.com/barteksekula/side-by-side-editing/actions/workflows/side-by-side-editing.yml/badge.svg)](https://github.com/barteksekula/side-by-side-editing/actions/workflows/side-by-side-editing.yml)
 
+This a nice improvement add-on for Editors. It's very easy to install, uses only the public API and requires no configuration.
+It's available for free from https://nuget.optimizely.com/package/?id=SideBySideEditing and can be installed to any Optimizely CMS12+
+
+![side-by-side-editing.png](assets/docsimages/side-by-side-editing.png "Side by side editing")
+
 ## Requirements
 
 * .NET Core 6+
@@ -50,7 +55,7 @@ public class Startup
 }
 ```
 
-`AddSideBySideEditing` extension method also accepts optional parameter of Action<SideBySideEditingOptions> which
+_AddSideBySideEditing_ extension method also accepts optional parameter of Action<SideBySideEditingOptions> which
 lets you configure the add-on according to your needs.
 
 List of available options
@@ -58,6 +63,35 @@ List of available options
  | Option        | Default           | Description  |
  | ---- | ---- | ---- |
  | RegisterIframeAutoRefresher | true | Auto-refresh the preview iframe in the side-by-side view. If your views use tag/html helpers and render all `data-epi` attributes correctly you can turn this off. |
+
+# Automatic preview refresh
+
+By default, the preview just refreshes itself behind the scenes after each successful Save operation.
+Very important to note is that there are no restrictions on the delivery site. There is no need to use HtmlHelpers or TagHelpers which
+render *data-epi** attributes or to render those manually.
+
+If your delivery correctly renders **data-epi** attributes, and you don't want the preview to be automatically reloaded you can:
+
+```csharp
+public class Startup
+{
+    ...
+    public void ConfigureServices(IServiceCollection services)
+    {
+        ...
+        services.AddSideBySideEditing(options =>
+        {
+            options.RegisterIframeAutoRefresher = false;
+        });
+        ...
+    }
+    ...
+}
+```
+
+In that way the preview will of course work more seamlessly and faster because only a small part of the page is updated behind the scenes.
+
+![side-by-side-editing2-no-refresh.gif](assets/docsimages/side-by-side-editing2-no-refresh.gif "Side by side editing 2 No Refresh")
 
 # For contributors
 
