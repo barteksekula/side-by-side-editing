@@ -24,7 +24,6 @@
     function subscribeEvent() {
         const epi = window.epi;
         if (epi.isEditable) {
-            console.log("Subscribed");
             epi.subscribe("contentSaved", function (message) {
                 getUpdatedPageContentAsync(message.contentLink)
                     .then(function (newHtmlContent) {
