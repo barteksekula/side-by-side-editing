@@ -95,19 +95,19 @@ In that way the preview will of course work more seamlessly and faster because o
 
 # For contributors
 
-This is our personal project that we intend to maintain.
+This is my personal project that I intend to maintain.
 
-If you would like to contribute in any way, create a new feature, fix a bug or help with the documentation then we would really appreciate any kind of contributions.
+If you would like to contribute in any way, create a new feature, fix a bug or help with the documentation then I would really appreciate any kind of contributions.
 
 # Bug reporting
 
-We really appreciate bug reports. But please make sure that you include as many details as possible.
-We spent a lot of time on setting up the solution so it's possible to run the whole thing by just cloning the repo and
+I'd really appreciate bug reports. But please make sure that you include as many details as possible.
+I spent a lot of time on setting up the solution so it's possible to run the whole thing by just cloning the repo and
 calling a single command.
 That makes it super easy for you to fork this repo and create a reproducible environment.
 That will significantly speed up a potential bugfix release for you.
 
-Please remember that this is our personal project developed during our free time and any kind of help from
+Please remember that this is my personal project developed during my free time and any kind of help from
 users is highly appreciated.
 
 ## Development (if you would like to help in development)

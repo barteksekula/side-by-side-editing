@@ -4,14 +4,14 @@
     <id>SideBySideEditing</id>
     <version>$PackageVersion$</version>
     <title>SideBySideEditing</title>
-    <authors>EPiServer Labs</authors>
-    <owners>EPiServer Labs</owners>
+    <authors>Bartosz Sekuła</authors>
+    <owners>Bartosz Sekuła</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A package that lets editors edit content side by side with auto updating preview</description>
     <releaseNotes/>
     <copyright>Copyright 2025</copyright>
     <tags>content editing sidebyside</tags>
-    <licenseUrl>https://raw.githubusercontent.com/barteksekula/SideBySideEditing/main/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/advanced-cms/advanced-reviews/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/barteksekula/SideBySideEditing</projectUrl>
     <dependencies>
       <group targetFramework="net6.0">
