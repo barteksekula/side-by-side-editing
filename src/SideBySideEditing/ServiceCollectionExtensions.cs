@@ -7,7 +7,7 @@ namespace SideBySideEditing
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddSideBySideEditing(this IServiceCollection services)
+        public static IServiceCollection AddSideBySideEditing(this IServiceCollection services, Action<SideBySideEditingOptions> sideBySideEditingOptions = null)
         {
             services.Configure<ProtectedModuleOptions>(
                 pm =>
@@ -18,6 +18,11 @@ namespace SideBySideEditing
                         pm.Items.Add(new ModuleDetails { Name = "side-by-side-editing" });
                     }
                 });
+
+            if (sideBySideEditingOptions != null)
+            {
+                services.Configure(sideBySideEditingOptions);
+            }
 
             return services;
         }
