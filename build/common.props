@@ -6,8 +6,8 @@
         <Company>Bartosz Sekuła</Company>
         <Authors>Bartosz Sekuła</Authors>
         <Copyright>© 2025 Bartosz Sekuła</Copyright>
-        <PackageProjectUrl>https://github.com/barteksekula/SideBySideEditing</PackageProjectUrl>
-        <PackageLicenseUrl>https://raw.githubusercontent.com/advanced-cms/advanced-reviews/master/LICENSE</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/barteksekula/side-by-side-editing</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/barteksekula/side-by-side-editing/master/LICENSE</PackageLicenseUrl>
         <PackageTags>EPiServer Optimizely CMS sidebyside editing</PackageTags>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>

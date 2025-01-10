@@ -11,8 +11,8 @@
     <releaseNotes/>
     <copyright>Copyright 2025</copyright>
     <tags>content editing sidebyside</tags>
-    <licenseUrl>https://raw.githubusercontent.com/advanced-cms/advanced-reviews/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/barteksekula/SideBySideEditing</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/barteksekula/side-by-side-editing/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/barteksekula/side-by-side-editing</projectUrl>
     <dependencies>
       <group targetFramework="net6.0">
         <dependency id="EPiServer.CMS.UI.Core" version="[$CmsUIVersion$, $CmsUINextMajorVersion$)" />
