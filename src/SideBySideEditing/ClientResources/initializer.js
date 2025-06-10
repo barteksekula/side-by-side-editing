@@ -17,7 +17,7 @@ define([
 
                 this.set("isAvailable",
                     type === "epi-cms/contentediting/PageDataController" ||
-                    type === "epi-cms/contentediting/SideBySideController" ||
+                    type === "side-by-side-editing/SideBySideController" ||
                     type === "epi-cms/compare/views/CompareView");
             }
         }
