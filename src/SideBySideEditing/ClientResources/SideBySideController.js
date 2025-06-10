@@ -9,6 +9,8 @@ define([
 ) {
 
     return declare([PageDataController], {
+        iframeName: "sidebysideedit",
+
         templateString: `<div style="width: 100%; height: 100%;">
             <div data-dojo-attach-point="mainLayoutContainer"
                  data-dojo-type="epi/shell/layout/PreserveRatioBorderContainer"
