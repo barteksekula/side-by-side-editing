@@ -1,6 +1,6 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">  
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>    
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="EPiServer.CMS.TinyMce" />
@@ -26,6 +26,6 @@
     <None Remove="app_data\**" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SideBySideEditing\SideBySideEditing.csproj" />
+    <ProjectReference Include="..\..\src\SideBySideEditing\SideBySideEditing.csproj" />
   </ItemGroup>
 </Project>

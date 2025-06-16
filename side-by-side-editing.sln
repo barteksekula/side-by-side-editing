@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alloy.Sample", "src\Alloy.Sample\Alloy.Sample.csproj", "{3D79ADE5-DADB-47D2-933D-E98F9773AFAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alloy.Sample", "samples\Alloy.Sample\Alloy.Sample.csproj", "{3D79ADE5-DADB-47D2-933D-E98F9773AFAD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F856CAEC-B3F9-4320-B39D-E8F2EB8F6111}"
 EndProject
@@ -24,9 +24,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A1272902
 		build\nuspec.props = build\nuspec.props
 		build\dependencies.props = build\dependencies.props
 		package.json = package.json
+		global.json = global.json
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideBySideEditing", "src\SideBySideEditing\SideBySideEditing.csproj", "{72EBA180-C0F0-4615-991F-FF6BB367ACEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{9425DD9B-06B4-4835-B934-4E594838D5A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,8 +50,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3D79ADE5-DADB-47D2-933D-E98F9773AFAD} = {F856CAEC-B3F9-4320-B39D-E8F2EB8F6111}
 		{72EBA180-C0F0-4615-991F-FF6BB367ACEC} = {F856CAEC-B3F9-4320-B39D-E8F2EB8F6111}
+		{3D79ADE5-DADB-47D2-933D-E98F9773AFAD} = {9425DD9B-06B4-4835-B934-4E594838D5A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31F10C96-F924-4A0A-9B12-36A09C66A0B3}
